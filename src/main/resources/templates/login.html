@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/static/login.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <header class="blur-line">
+        <img src="images/kyrgyzstan.jpg" alt="">
+        <div class="logo" alt="">
+            <div class="letter">N</div>
+            <div class="letter">O</div>
+            <div class="letter">M</div>
+            <div class="letter">A</div>
+            <div class="letter">D</div>
+        </div>
+
+        <ul class="navbar">
+            <li><a href="http://127.0.0.1:5500/nomad.html#">Home</a></li>
+            <li>
+                <a href="company.html">Company</a>
+                <ul class="drop-menu">
+                    <li><a href="company.html#north-part">North</a></li>
+                    <li><a href="company.html#southern-part">South</a></li>
+                    <li><a href="company.html#south-part">Skiing</a></li>
+                </ul>
+            </li>
+            <li><a href="culture.html">Culture</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=704290623">Contacts</a></li>
+            <button class="btnLogin-popup">Login</button>
+        </ul>
+
+        <div class="h-right">
+            <a href="#">Follow</a>
+            <a href="https://www.instagram.com/nomad.trails.platform?igsh=MTNremlvcHhuaTMyZg%3D%3D&utm_source=qr"><i class="ri-instagram-fill"></i></a>
+            <a href="https://t.me/+eHutUXgbZFIwMzhi"><i class="ri-telegram-fill"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+</head>
+
+<body>
+<div class="wrapper">
+        <span class="icon-close">
+            <i class='bx bx-x'></i>
+        </span>
+
+    <div class="form-action">
+        <h1>Login</h1>
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bx-user-pin' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bx-lock' ></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me </label>
+                <a href="#"> Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Sign in</button>
+
+            <div class="register-link">
+                <p>Don't have an account? <a href="#" class="regis-link">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="form-action-registration">
+        <h1>Registration</h1>
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bx-user-pin' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bx-lock' ></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox">I agree to the terms & conditions</label>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+
+            <div class="register-link">
+                <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<script src="/static/login.js"></script>
+</body>
+</html>
